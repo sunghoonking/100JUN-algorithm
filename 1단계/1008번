@@ -1,0 +1,41 @@
+package main;
+
+import java.util.*;
+
+class Main {
+
+    public static void main(String[] args) {
+        Scanner sh = new Scanner(System.in);
+
+        double a;
+        int b;
+       a = sh.nextInt();
+        b = sh.nextInt();
+
+        System.out.println(a / b);
+
+
+
+        }
+        
+
+    }
+
+
+
+
+1 3 
+
+0.3333 나누기 
+
+
+
+
+
+
+
+
+
+
+
+
