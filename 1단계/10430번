@@ -1,0 +1,44 @@
+package main;
+
+import java.util.*;
+
+class Main {
+
+    public static void main(String[] args) {
+        Scanner sh = new Scanner(System.in);
+
+        int A;
+        int B;
+        int C;
+        A = sh.nextInt();
+        B = sh.nextInt();
+        C = sh.nextInt();
+
+        System.out.println((A+B)%C);
+        System.out.println(((A%C) + (B%C))%C);
+        System.out.println((A*B)%C);
+        System.out.println( ((A%C) * (B%C))%C);
+
+
+
+        }
+        
+
+    }
+
+
+
+
+
+
+
+ 여러가지 출력 
+
+
+
+
+
+
+
+
+
