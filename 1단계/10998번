@@ -1,0 +1,37 @@
+package main;
+
+import java.util.*;
+
+class Main {
+
+    public static void main(String[] args) {
+        Scanner sh = new Scanner(System.in);
+
+        int a;
+        int b;
+       a = sh.nextInt();
+       b = sh.nextInt();
+
+        System.out.println(a * b);
+
+
+
+        }
+        
+
+    }
+
+ 정수 곱하기
+
+
+
+
+
+
+
+
+
+
+
+
+
