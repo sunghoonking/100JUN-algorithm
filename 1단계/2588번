@@ -1,0 +1,43 @@
+package main;
+
+import java.util.*;
+
+class Main {
+
+    public static void main(String[] args) {
+        Scanner sh = new Scanner(System.in);
+
+        int A;
+        int B;
+
+        A = sh.nextInt();
+        B = sh.nextInt();
+
+        System.out.println(A * (B%10));
+
+        System.out.println(A * (B%100/10));
+        System.out.println(A * (B/100));
+
+        System.out.println(A * B);
+
+        }
+        
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
