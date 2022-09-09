@@ -6,6 +6,8 @@ build/
 !**/src/test/**/build/
 
 ### STS ###
+build.gradle
+settings.gradle
 .apt_generated
 .classpath
 .factorypath
@@ -16,6 +18,10 @@ build/
 bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
+gradlew
+gradlew.bat
+gradle/wrapper
+
 
 ### IntelliJ IDEA ###
 .idea
